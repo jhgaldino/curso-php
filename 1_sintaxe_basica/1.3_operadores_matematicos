@@ -18,7 +18,7 @@
         <p>9*9 = <?=$multiplicacao?></p>
         <p>9/3 = <?=$divisao?></p>
         <hr/>
-        <p><?/*eh possivel fazer contas com as variaveis declaradas*/=($adicao*$divisao);?></p>
+        <p><?=($adicao*$divisao);?></p>
     </body>
 </html>
 
