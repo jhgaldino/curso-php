@@ -8,3 +8,4 @@ echo"Ola mundo!";
     echo "Meu nome eh" ($nome)<br/>;
 //pode ser imprimindo usando print tambem
 print "Ola mundo"
+?>
