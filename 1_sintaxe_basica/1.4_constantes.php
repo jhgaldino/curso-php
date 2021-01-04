@@ -14,4 +14,6 @@ if{$idade>= min && idade <= max}{
 }else{
     echo "acesso negado";
 }
+
+echo "<br>". PHP_VERSION;
 ?>
