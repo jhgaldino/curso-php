@@ -1,3 +1,4 @@
+
 <?
     #operacoes simples
     echo(1+1)*3;
@@ -21,5 +22,3 @@
         <p><?=($adicao*$divisao);?></p>
     </body>
 </html>
-
-
