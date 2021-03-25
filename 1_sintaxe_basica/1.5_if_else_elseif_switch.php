@@ -25,7 +25,7 @@ if (($idade>=18)||($senha === "1234")){
 if ($acesso && idade >=18){
     echo "Okay entra"
 }else{
-    echo "Nay! Sai"
+    echo "Nay! Sai!"
 }
 ?>
 <!DOCTYPE html>
@@ -42,8 +42,23 @@ if ($acesso && idade >=18){
     <h1 style="colorgreen">autorizado</h1>
     <?php
     } else {
-        ?>
+        
     <h1 style="colorred">desautorizado</h1>    
+    switch($valor){
+        case "1":
+        echo "bom dia";
+        break;
+        case "2":
+        echo "boa tarde";
+        break;
+        default
+        case "3":
+        echo "boa noite";
     }
+    ?>
+    
+    }
+
+
 </body>
 </html>
