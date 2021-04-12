@@ -6,5 +6,13 @@
 	for ($i=0;$i<5;i++){
     	echo $nomes[$i],"<br />";
 }
+//é possivel construir estruturas dentro das arrays
+$arraynotas = array{
+	"aluno1"=array{
+		"nome"=>Julia,
+		"nota"=>10
+	}
+};
+echo $arraynotas["aluno1"]["nome"]["nota"];
 ?>
 
