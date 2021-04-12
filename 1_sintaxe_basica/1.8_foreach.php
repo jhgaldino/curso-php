@@ -6,6 +6,7 @@ $arrayfrutas2 =[
     3=>"Banana",
     4=>"Uva"];
 ]
+$aluno=["João","José","Jonathan"];
 foreach($arrayfrutas as $v){
 echo $v "<br>";
 }
